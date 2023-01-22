@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <form method="post" onsubmit="getData2();return false">
+                <input type="text" id="cname" placeholder="Enter Country Name">
+                <button type="submit">Get Details</button>
+            </form>
+        </div>
+        <div class="second">
+            <table>
+                <tr>
+                    <th>Name:</th>
+                    <td id="name">Name</th>
+                </tr>
+                <tr>
+                    <th>Capital:</th>
+                    <td id="capital">Capital</td>
+                </tr>
+                <tr>
+                    <th>Borders:</th>
+                    <td id="borders">Borders</td>
+                </tr>
+                <tr>
+                    <th>Flag:</th>
+                    <td><img id="flags"></td>
+                </tr>
+                <tr>
+                    <th>Population:</th>
+                    <td id="population">Population</td>
+                </tr>
+                <tr>
+                    <th>Region:</th>
+                    <td id="region">Region</td>
+                </tr>
+                <tr>
+                    <th>Timezone:</th>
+                    <td id="timezones">Time Zone</td>
+                </tr>
+                <tr>
+                    <th>Sub-Region:</th>
+                    <td id="subregion">Sub-region</td>
+                </tr>
+               
+            </table>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>
