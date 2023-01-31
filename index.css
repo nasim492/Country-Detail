@@ -53,7 +53,7 @@ table{
 }
 @media (max-width: 540px) {
   .second{
-    width:340px
+    width:342px;
   } 
   .first{
     width: 350px;
@@ -62,7 +62,7 @@ table{
     width: 200px;
   }
   th{
-    font-size: 18px;
+    font-size: 17px;
   }
   td{
     font-size: 14px;
